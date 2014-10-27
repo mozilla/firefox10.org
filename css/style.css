@@ -74,10 +74,10 @@ body {
 }
 
 #tail {
-	position: relative;
-	left: -228px;
-	top: -254px;
-	z-index: 2;
+  left: -31px;
+  position: absolute;
+  top: 460px;
+  z-index: 2;
 }
 
 #logo {
@@ -88,18 +88,17 @@ body {
 }
 
 #share {
-	text-align: center;
-	position: relative;
-	top: -741px;
-	z-index: 4;
+  position: relative;
+  text-align: center;
+  z-index: 4;
 }
 
 #get-involved {
-	position: relative;
-	top: -590px;
-	z-index: 2;
-	width: 850px;
-	margin: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  top: 280px;
+  width: 850px;
+  z-index: 2;
 }
 
 #get-involved-text {
@@ -141,3 +140,30 @@ body {
 	top: -180px;
 }
 
+.footer {
+  background: none repeat scroll 0 0 #001b30;
+  box-sizing: border-box;
+  height: 223px;
+  margin-left: -8px;
+  margin-top: 335px;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.footer-container {
+	width: 805px;
+	margin: auto;
+}
+
+.footer-container-item {
+	margin-right: 73px;
+	color: #99a0a6;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-container-item a,
+.footer-container-item a:hover {
+	color: #0878a8;
+	text-decoration: none;
+}
