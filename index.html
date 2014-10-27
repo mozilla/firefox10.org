@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Celebrate 10 years of Firefox! #chooseindependent #fx10</title>
+    <title>For 10 years, #Firefox has been the only Independent choice! Let's show the world that you have made your choice! #ChooseIndependent #fx10</title>
 
     <link href="//necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet" />
     <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
@@ -18,22 +18,29 @@
         <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
         <div id="title">
           <h1>Celebrate 10 years of Firefox!</h1>
-          <h3><span>Get involved!</span> #ChooseIndependent #fx10</h3>
+          <h3>#ChooseIndependent #fx10</h3>
         </div>
         <div id="intro">
           <p>
-            For 10 years, Firefox has been the only choice that is truly independent, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!
+            For 10 years, <span class="bold">Firefox</span> has been the only choice that is <span class="bold">truly independent</span>, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!
           </p>
           <p>
             This page will be updated twice before November 10th with more ways to participate. Pay special attention to updates on November 3 and November 10.
           </p>
         </div>
         <div id="video">
+          <iframe width="560" height="315" src="//www.youtube.com/embed/j6pwTk4D8WI?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           <img id="logo" src="images/mozillalogo.png" />
           <img id="tail" src="images/background.png" />
 
           <div id="share">
-            <a href="#"><img src="images/share.png" /></a>
+            <p onclick="toggleShare();" id="toggle"><img src="images/share.png" />
+            </p>
+            <p id="share-this">
+              <span class='st_facebook_large' displayText='Facebook'></span>
+              <span class='st_twitter_large' displayText='Tweet'></span>
+              <span class='st_googleplus_large' displayText='Google +'></span>
+            </p>
           </div>
         </div>
         <div id="get-involved">
@@ -54,13 +61,13 @@
                   Try to wear Firefox gear or anything that is blue and orange.
                 </li>
                 <li>
-                  Print this sign or make it. Fill it in and bring it with you.
+                  Print this sign in <a href="images/color.jpg" target="_blank" download>color</a> or <a href="images/mono.jpg" target="_blank" download>black and white</a> or make it yourself. Fill it in and bring it with you.
                 </li>
                 <li>
                   Bring your friends, rally those around you, hold up the sign, put on your Firefox ears and take a picture or record a video.
                 </li>
                 <li>
-                  Share it <span class="bold">everywhere!</span> Caption your picture or video with: "Firefox is my independent choice in [city or country]! <span class="italic">#ChooseIndependent</span> and <span class="italic">#fx10</span>"
+                  Share it <span class="bold">everywhere!</span> Caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"
                 </li>
               </ul>
             </div>
@@ -69,28 +76,14 @@
             <i class="fa fa-picture-o fa-5x"></i>
             <div class="list">
               <p class="get-involved-list-header bold">
-                Can't make it outside? Create a picture!
+                Can't make it outside? <u>Create</u> a picture!
               </p>
               <ul class="normal-list">
                 <li>
                   Find a picture of your local landmark or somewhere you always wanted to go. (make sure you have the rights to the picture) Now edit yourself in! Get creative!
                 </li>
                 <li>
-                  SHARE on your social networks and caption your picture or video with: "Firefox is my independent choice in [city or country]! <span class="italic">#ChooseIndependent</span> and <span class="italic">#fx10</span>"
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <i class="fa fa-bus fa-5x"></i>
-            <div class="list">
-              <p class="get-involved-list-header bold">
-                Jump on a Firefox bus! (more info TBD)
-              </p>
-              <ul class="normal-list">
-                <li>
-                  If you're located in the US, Germany, India or Brazil, don't miss out on the Fx10 Bus that's touring the landmarks on November 10th.
-                  Stay tuned for more information
+                  SHARE on your social networks and caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"
                 </li>
               </ul>
             </div>
@@ -133,5 +126,23 @@
       </div>
     </div>
     <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">
+      stLight.options({
+        publisher : "a5362841-c149-4150-8e59-02ad4f5a1c26",
+        doNotHash : false,
+        doNotCopy : false,
+        hashAddressBar : false
+      });
+
+      function toggleShare() {
+        var shareThis = document.getElementById("share-this");
+        if (shareThis.style.display != "none" && shareThis.style.display != "") {
+          shareThis.style.display = "none";
+        } else {
+          shareThis.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

@@ -1,175 +1,196 @@
 body {
-	font-family: 'Open Sans', sans-serif;
-	color: #FFFFFF;
-	background-color: #013356;
-	overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  background-color: #013356;
+  overflow-x: hidden;
 }
 
 .italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 .bold {
-	font-style: normal;
-	font-weight: 800;
+  font-style: normal;
+  font-weight: 800;
 }
 
 #top-background-fix {
-	height: 460px;
-	background-color: #0A86BC;
-	border-top: 2px solid #fff;
-	background-repeat: no-repeat;
-	background-image: url("../images/topbanner.png");
-	background-position: center top;
+  height: 460px;
+  background-color: #0A86BC;
+  border-top: 2px solid #fff;
+  background-repeat: no-repeat;
+  background-image: url("../images/topbanner.png");
+  background-position: center top;
 }
 #wrapper-1400 {
-	width: 1400px;
-	margin: 0px auto -460px;
-	position: relative;
-	top: -460px;
+  width: 1400px;
+  margin: 0px auto -460px;
+  position: relative;
+  top: -460px;
 }
 
 #wrapper-960 {
-	width: 940px;
-	margin: 0px auto;
-	padding: 0px 10px;
+  width: 940px;
+  margin: 0px auto;
+  padding: 0px 10px;
 }
 
 #title {
-	padding-top: 100px;
-	text-align: center;
+  padding-top: 100px;
+  text-align: center;
 }
 
 #title h1 {
-	font-size: 65px;
-	margin: 0;
-	font-weight: 300;
+  font-size: 65px;
+  margin: 0;
+  font-weight: 300;
 }
 
 #title h3 {
-	font-size: 36px;
-	margin: 0;
-	font-weight: 300;
+  font-size: 36px;
+  margin: 0;
+  font-weight: 300;
 }
 
 #title h3 span {
-	font-weight: 700;
-	font-style: normal;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #intro {
-	margin: 0px auto;
-	width: 890px;
+  margin: 0px auto;
+  width: 890px;
 }
 
 #intro p {
-	text-align: center;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 24px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 #video {
-	padding-top: 71px;
-	z-index: 1;
+  padding-top: 71px;
+  z-index: 1;
+  text-align: center;
 }
 
 #tail {
-	left: 2px;
-	position: absolute;
-	top: 460px;
-	z-index: 2;
+  left: 2px;
+  position: absolute;
+  top: 460px;
+  z-index: -1;
 }
 
 #logo {
-	position: relative;
-	right: -721px;
-	top: -100px;
-	z-index: 3;
+  position: relative;
+  right: -457px;
+  top: -420px;
+  z-index: 3;
+}
+
+#video iframe {
+  border-radius: 6px;
+  border: 4px solid #0A86BC;
+  margin-top: -4px;
 }
 
 #share {
-	position: relative;
-	text-align: center;
-	z-index: 4;
+  position: relative;
+  text-align: center;
+  z-index: 4;
+  margin-top: -250px;
+}
+
+#share-this {
+  display: none;
+}
+
+#toggle {
+  cursor: pointer;
 }
 
 #get-involved {
-	margin: 0 auto;
-	position: relative;
-	top: 280px;
-	width: 850px;
-	z-index: 2;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  width: 850px;
+  z-index: 2;
 }
 
 #get-involved-text {
-	font-weight: 300;
-	text-align: center;
-	font-size: 55px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 15px;
 }
 
 .get-involved-list-header {
-	font-size: 24px;
-	line-height: 40px;
+  font-size: 24px;
+  line-height: 40px;
 }
 
 .normal-list {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.normal-list a {
+  color: #FFFFFF;
 }
 
 .list, #get-involved i {
-	display: inline-block;
+  display: inline-block;
 }
 
 .list {
-	width: 710px;
+  width: 710px;
 }
 
 #get-involved i {
-	color: #0A86BC;
-	width: 135px;
-	position: relative;
+  color: #0A86BC;
+  width: 135px;
+  position: relative;
 }
 
 .fa-picture-o {
-	top: -95px;
+  top: -95px;
 }
 
 .fa-camera {
-	top: -180px;
+  top: -180px;
 }
 
 .fa-bus {
-	top: -70px;
+  top: -70px;
 }
 
 .footer {
-	background: none repeat scroll 0 0 #001b30;
-	box-sizing: border-box;
-	height: 223px;
-	margin-left: -8px;
-	margin-top: 335px;
-	padding-top: 70px;
-	width: 100%;
+  background: none repeat scroll 0 0 #001b30;
+  box-sizing: border-box;
+  height: 223px;
+  margin-left: -8px;
+  margin-top: 335px;
+  padding-top: 70px;
+  width: 100%;
 }
 
 .footer-container {
-	width: 805px;
-	margin: auto;
+  width: 805px;
+  margin: auto;
 }
 
 .footer-container-item {
-	margin-right: 73px;
-	color: #99a0a6;
-	display: inline-block;
-	vertical-align: top;
+  margin-right: 73px;
+  color: #99a0a6;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .footer-container-item a, .footer-container-item a:hover {
-	color: #0878a8;
-	text-decoration: none;
-	font-style: italic;
-	font-weight: 800;
+  color: #0878a8;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 800;
 }
