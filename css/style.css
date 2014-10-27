@@ -186,6 +186,7 @@ body {
   color: #99a0a6;
   display: inline-block;
   vertical-align: top;
+  font-size: 13px;
 }
 
 .footer-container-item a, .footer-container-item a:hover {
