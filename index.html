@@ -1,7 +1,11 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>For 10 years, #Firefox has been the only Independent choice! Let's show the world that you have made your choice! #ChooseIndependent #fx10</title>
+    <title data-l10n-id="title">For 10 years, #Firefox has been the only Independent choice! Let's show the world that you have made your choice! #ChooseIndependent #fx10</title>
+
+    <!-- Enable internationalization with l10n.js -->
+    <link href="locales/locales.ini" rel="prefetch" type="application/l10n">
+    <script src="js/l10n.js"></script>
 
     <link href="//necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet" />
     <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
@@ -17,14 +21,14 @@
       <div id="wrapper-960">
         <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
         <div id="title">
-          <h1>Celebrate 10 years of Firefox!</h1>
-          <h3>#ChooseIndependent #fx10</h3>
+          <h1 data-l10n-id="heading">Celebrate 10 years of Firefox!</h1>
+          <h3 data-l10n-id="subtitle">#ChooseIndependent #fx10</h3>
         </div>
         <div id="intro">
           <p>
-            For 10 years, <span class="bold">Firefox</span> has been the only choice that is <span class="bold">truly independent</span>, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!
+            <span data-l10n-id="paragraph-1-1">For 10 years,</span> <span class="bold" data-l10n-id="paragraph-1-2">Firefox</span> <span data-l10n-id="paragraph-1-3">has been the only choice that is</span> <span class="bold" data-l10n-id="paragraph-1-4">truly independent</span><span data-l10n-id="paragraph-1-5">, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!</span>
           </p>
-          <p>
+          <p data-l10n-id="paragraph-2">
             This page will be updated twice before November 10th with more ways to participate. Pay special attention to updates on November 3 and November 10.
           </p>
         </div>
@@ -44,30 +48,30 @@
           </div>
         </div>
         <div id="get-involved">
-          <p id="get-involved-text">
+          <p id="get-involved-text" data-l10n-id="get-involved">
             Get Involved!
           </p>
           <div>
             <i class="fa fa-camera  fa-5x"></i>
             <div class="list">
-              <p class="get-involved-list-header bold">
+              <p class="get-involved-list-header bold" data-l10n-id="take">
                 Take a picture or record a video!
               </p>
               <ul class="normal-list">
                 <li>
-                  Pick an iconic landmark near you. <span class="italic">Example: Eiffel tower in Paris!</span>
+                  <span data-l10n-id="take-pick-1">Pick an iconic landmark near you.</span> <span class="italic" data-l10n-id="take-pick-2">Example: Eiffel tower in Paris!</span>
                 </li>
-                <li>
+                <li data-l10n-id="take-wear">
                   Try to wear Firefox gear or anything that is blue and orange.
                 </li>
                 <li>
-                  Print this sign in <a href="images/color.jpg" target="_blank" download>color</a> or <a href="images/mono.jpg" target="_blank" download>black and white</a> or make it yourself. Fill it in and bring it with you.
+                  <span data-l10n-id="take-print-1">Print this sign in</span> <a href="images/color.jpg" target="_blank" download data-l10n-id="take-print-2">color</a> <span data-l10n-id="take-print-3">or</span> <a href="images/mono.jpg" target="_blank" download data-l10n-id="take-print-4">black and white</a> <span data-l10n-id="take-print-5">or make it yourself. Fill it in and bring it with you.</span>
                 </li>
-                <li>
+                <li data-l10n-id="take-bring">
                   Bring your friends, rally those around you, hold up the sign, put on your Firefox ears and take a picture or record a video.
                 </li>
                 <li>
-                  Share it <span class="bold">everywhere!</span> Caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"
+                  <span data-l10n-id="take-share-1">Share it</span> <span class="bold" data-l10n-id="take-share-2">everywhere!</span> <span data-l10n-id="take-share-3">Caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"</span>
                 </li>
               </ul>
             </div>
@@ -76,13 +80,13 @@
             <i class="fa fa-picture-o fa-5x"></i>
             <div class="list">
               <p class="get-involved-list-header bold">
-                Can't make it outside? <u>Create</u> a picture!
+                <span data-l10n-id="create-1">Can't make it outside?</span> <u data-l10n-id="create-2">Create</u> <span data-l10n-id="create-3">a picture!</span>
               </p>
               <ul class="normal-list">
-                <li>
+                <li data-l10n-id="create-find">
                   Find a picture of your local landmark or somewhere you always wanted to go. (make sure you have the rights to the picture) Now edit yourself in! Get creative!
                 </li>
-                <li>
+                <li data-l10n-id="create-share">
                   SHARE on your social networks and caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"
                 </li>
               </ul>
@@ -99,32 +103,28 @@
           <div class="footer-container-item">
             <a href="http://www.mozilla.org"><img src="images/B_16.png"/></a>
           </div>
-          <div class="footer-container-item">
-            Portions of this content are (C) 1998-2014 by
-            <br/>
-            individual mozilla.org contributors. Content
-            <br/>
-            available under a Creative Commons License.
-            <br/>
-            <br/>
-            <br/>
-            Contribute to this page.
+          <div class="footer-container-item copyright">
+            <p data-l10n-id="copyright">Portions of this content are (C) 1998-2014 by individual mozilla.org contributors. Content available under a Creative Commons License.</p>
+            <br />
+            <br />
+            <p data-l10n-id="contribute">Contribute to this page.</p>
           </div>
           <div class="footer-container-item">
-            <a href="https://www.mozilla.org/en-US/contact/spaces/">Contact Us</a>
+            <a href="https://www.mozilla.org/en-US/contact/spaces/" data-l10n-id="contact-us">Contact Us</a>
             <br/>
-            <a href="https://www.mozilla.org/en-US/privacy/websites/">Privacy Policy</a>
+            <a href="https://www.mozilla.org/en-US/privacy/websites/" data-l10n-id="privacy-policy">Privacy Policy</a>
             <br/>
-            <a href="https://www.mozilla.org/en-US/about/legal/">Legal Notices</a>
+            <a href="https://www.mozilla.org/en-US/about/legal/" data-l10n-id="legal-notices">Legal Notices</a>
             <br/>
-            <a href="https://www.mozilla.org/en-US/about/legal/fraud-report/">Report Trademark</a>
+            <a href="https://www.mozilla.org/en-US/about/legal/fraud-report/" data-l10n-id="report-trademark">Report Trademark</a>
             <br/>
-            <a href="https://www.mozilla.org/en-US/about/legal/report-abuse/">Abuse</a>
+            <a href="https://www.mozilla.org/en-US/about/legal/report-abuse/" data-l10n-id="abuse">Abuse</a>
             <br/>
           </div>
         </div>
       </div>
     </div>
+    <script src="//pontoon.mozilla.org/pontoon.js"></script>
     <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">
