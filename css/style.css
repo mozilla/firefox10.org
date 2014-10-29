@@ -197,3 +197,11 @@ body {
   font-style: italic;
   font-weight: 800;
 }
+
+.footer-container-item.copyright {
+  width: 275px;
+}
+
+.footer-container-item.copyright p {
+  margin: 0;
+}
