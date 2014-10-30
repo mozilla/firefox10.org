@@ -26,7 +26,7 @@ body {
 }
 #wrapper-1400 {
   width: 1400px;
-  margin: 0px auto -460px;
+  margin: 0px auto -660px;
   position: relative;
   top: -460px;
 }
@@ -87,7 +87,7 @@ body {
 #logo {
   position: relative;
   right: -457px;
-  top: -457px;
+  top: -478px;
   z-index: 3;
 }
 
@@ -115,7 +115,7 @@ body {
 #get-involved {
   margin: 0 auto;
   position: relative;
-  top: 200px;
+  top: 90px;
   width: 850px;
   z-index: 2;
 }
@@ -168,40 +168,105 @@ body {
   top: -70px;
 }
 
-.footer {
-  background: none repeat scroll 0 0 #001b30;
-  box-sizing: border-box;
-  height: 223px;
-  /*margin-left: -8px;*/
-  margin-top: 335px;
-  padding-top: 70px;
-  width: 100%;
+#colophon .col {
+  float: left;
+  margin: 0 10px;
+  width: 300px;
 }
 
-.footer-container {
-  width: 805px;
-  margin: auto;
+#colophon .row {
+  margin: 0 auto;
+  width: 960px;
 }
 
-.footer-container-item {
-  margin-right: 73px;
+#colophon h1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Open Sans Light", X-LocaleSpecific-Light, "Open Sans", X-LocaleSpecific, sans-serif;
+  font-weight: normal;
+  text-shadow: none;
+  letter-spacing: -2px;
+  display: block;
+  line-height: 100%;
+}
+
+#colophon .logo a {
+  background-image: url("../images/footer-mozilla-white.png");
+  display: block;
+  height: 24px;
+  overflow: hidden;
+  text-indent: 120%;
+  white-space: nowrap;
+  width: 88px;
+}
+
+#colophon {
   color: #99a0a6;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 13px;
 }
 
-.footer-container-item a, .footer-container-item a:hover {
+#colophon .col > *:last-child {
+  margin-bottom: 0;
+}
+#colophon p, #colophon ul {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#colophon .col-2 ul {
+  overflow: hidden;
+}
+
+#colophon .col-2 ul li {
+  float: left;
+}
+#colophon li {
+  list-style-type: none;
+  margin: 0;
+}
+#colophon .col-2 ul li.wrap::before {
+  content: "|";
+}
+#colophon .col-2 ul li.clear {
+  clear: both;
+}
+#colophon .links-social li ul {
+  display: inline;
+  margin: 0;
+}
+#colophon .links-social li li {
+  display: inline;
+}
+#colophon .links-social li li::before {
+  content: "|";
+}
+#colophon .links-social li li:first-child::before {
+  content: "";
+}
+#colophon .links-social li li span {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+
+.links-social ul {
+  padding-left: 15px;
+}
+footer {
+  background-color: #001b30;
+  font-family: "Open Sans";
+  font-size: 13px;
+  height: 150px;
+  padding-top: 20px;
+  position: relative;
+  top: 300px;
+}
+
+footer a, footer a:hover {
   color: #0878a8;
   text-decoration: none;
-  font-style: italic;
-  font-weight: 800;
-}
-
-.footer-container-item.copyright {
-  width: 275px;
-}
-
-.footer-container-item.copyright p {
-  margin: 0;
 }
