@@ -104,6 +104,17 @@ body {
   margin-top: -250px;
 }
 
+
+#share-this a {
+    background-color: #0A86BC;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 6px;
+    text-decoration: none;
+}
+
 #share-this {
   display: none;
 }

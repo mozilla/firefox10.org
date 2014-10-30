@@ -41,9 +41,8 @@
             <p onclick="toggleShare();" id="toggle"><img src="images/share.png" />
             </p>
             <p id="share-this">
-              <span class='st_facebook_large' displayText='Facebook'></span>
-              <span class='st_twitter_large' displayText='Tweet'></span>
-              <span class='st_googleplus_large' displayText='Google +'></span>
+              <a class="btn btn-link share-window" href="https://twitter.com/share?url=http%3A%2F%2Ffirefox10.org%2F&text=For 10 years%2C %23Firefox has been the only Independent choice! Let's show the world that you have made your choice! %23ChooseIndependent %23fx10&hashtags=firefox&dnt=true" target="_blank" data-ga="share-map"> <i class="fa fa-twitter"></i> <span class="title">Twitter</span> </a>
+              <a class="btn btn-link share-window" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffirefox10.org%2F" target="_blank" data-ga="share-map"> <i class="fa fa-facebook"></i> <span class="title">Facebook</span> </a>
             </p>
           </div>
         </div>
@@ -120,7 +119,7 @@
               <a href="https://affiliates.mozilla.org/">Firefox Affiliates</a>
             </li>
             <li class="clear">
-              <a href="http://mozilla.org/en-US/contribute/page/">Contribute to this page</a>
+              <a href="https://www.mozilla.org/contribute/">Contribute to this page</a>
             </li>
           </ul>
           <ul class="links-legal">
@@ -171,15 +170,7 @@
     </footer>
     <script src="//pontoon.mozilla.org/pontoon.js"></script>
     <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">
-      stLight.options({
-        publisher : "a5362841-c149-4150-8e59-02ad4f5a1c26",
-        doNotHash : false,
-        doNotCopy : false,
-        hashAddressBar : false
-      });
-
       function toggleShare() {
         var shareThis = document.getElementById("share-this");
         if (shareThis.style.display != "none" && shareThis.style.display != "") {
