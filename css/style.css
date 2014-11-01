@@ -77,24 +77,26 @@ body {
   text-align: center;
 }
 
-#tail {
-  left: 2px;
-  position: absolute;
-  top: 460px;
-  z-index: -1;
-}
-
 #logo {
   position: relative;
-  right: -457px;
-  top: -478px;
+  right: -697px;
+  top: -30px;
   z-index: 3;
+}
+
+#tail {
+  position: relative;
+  left: -251px;
+  top: -184px;
+  z-index: -5;
 }
 
 #video iframe {
   border-radius: 6px;
   border: 4px solid #0A86BC;
   margin-top: -4px;
+  position: relative;
+  top: -240px;
 }
 
 #share {
@@ -123,10 +125,34 @@ body {
   cursor: pointer;
 }
 
+#two-ways-text {
+  position: relative;
+  width: 500px;
+  top: -1070px;
+  left: 200px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.help-us-text{
+  font-size: 18px;
+}
+
+#help-us-text {
+  position: relative;
+  top: -600px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
 #get-involved {
   margin: 0 auto;
   position: relative;
-  top: 90px;
+  top: -290px;
   width: 850px;
   z-index: 2;
 }
@@ -136,11 +162,24 @@ body {
   text-align: center;
   font-size: 55px;
   margin-bottom: 15px;
+  position: relative;
+  top: -180px;
 }
 
-.get-involved-list-header {
+#div-help-us{
+   text-align: center;
+}
+
+
+.list-header {
   font-size: 24px;
   line-height: 40px;
+}
+
+.help-us-list{
+  position: relative;
+  top: 500px;
+  width: 400px;
 }
 
 .normal-list {
@@ -157,6 +196,10 @@ body {
   display: inline-block;
 }
 
+.list, #div-help-us i {
+  display: inline-block;
+}
+
 .list {
   width: 710px;
 }
@@ -165,6 +208,19 @@ body {
   color: #0A86BC;
   width: 135px;
   position: relative;
+}
+
+#help-us i{
+  color: #0A86BC;
+  width: 135px;
+  position: relative;
+}
+
+#help-us{
+  position: relative;
+  top: -600px;
+  right: -240px;
+  width: 300px;
 }
 
 .fa-picture-o {
@@ -177,6 +233,14 @@ body {
 
 .fa-bus {
   top: -70px;
+}
+
+.item-link {
+  position: relative;
+  left: 600px;
+  top: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 #colophon .col {
