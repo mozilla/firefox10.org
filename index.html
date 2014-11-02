@@ -2,248 +2,215 @@
 <html>
   <head>
     <title data-l10n-id="title">For 10 years, #Firefox has been the only Independent choice! Let's show the world that you have made your choice! #ChooseIndependent #fx10</title>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Enable internationalization with l10n.js -->
     <link href="locales/locales.ini" rel="prefetch" type="application/l10n">
     <script src="js/l10n.js"></script>
+    <script src="js/share.min.js"></script>
 
-    <link href="//necolas.github.io/normalize.css/3.0.2/normalize.css" rel="stylesheet" />
-    <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700" rel="stylesheet" type="text/css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="https://www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/foundation.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-
+    <script src="pontoon.mozilla.org/pontoon.js"></script>
+    <script src="https://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
   </head>
   <body>
-    <div id="top-background-fix"></div>
-    <div id="wrapper-1400">
-      <div id="wrapper-960">
-        <a class="tabzilla-closed" aria-expanded="false" aria-label="Mozilla links" href="http://www.mozilla.org/" id="tabzilla" data-infobar="translation">Mozilla</a>
-        <div id="title">
-          <h1 data-l10n-id="heading">Celebrate 10 years of Firefox!</h1>
-          <h3 data-l10n-id="subtitle"><i>#ChooseIndependent #fx10</i></h3>
-        </div>
-        <div id="intro">
-          <p>
-            <span data-l10n-id="paragraph-1-1">For 10 years,</span> <span class="bold" data-l10n-id="paragraph-1-2">Firefox</span> <span data-l10n-id="paragraph-1-3">has been the only choice that is </span><span class="bold" data-l10n-id="paragraph-1-4">truly independent</span><span data-l10n-id="paragraph-1-5">, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!</span>
-          </p>
-          <p data-l10n-id="paragraph-2">
-            This page will be updated twice before November 10th with more ways to participate. Pay special attention to updates on November 3 and November 10.
-          </p>
-        </div>
-
-        <img id="logo" src="images/mozillalogo.png" />
-        <img id="tail" src="images/background.png" />
-        
-        <div id="tow-ways">
-          <p id="two-ways-text" data-l10n-id="two-ways">
-            Two ways to get involved
-          </p>
-        </div>
-
-        
-        <p id="help-us-text" data-l10n-id="help-us">
-          Help us spread the word
-        </p>
-        <div id="help-us">
-          <div id="help-us-list">
-            <div class="list">
-              
-              <i class="fa fa-picture-o fa-5x"></i>
-              <div class="list">
-              
-                <p class="list-header bold" data-l10n-id="sign-up-thunderclap">
-                  Sign up for the Firefox Thunderclap
-                </p>
-                <span class="help-us-text" data-l10n-id="share-message">
-                 Share the message that you - along with thousands of people around the world - choose independent. When Firefox fans share the same message at the same time, a brilliant fire will be started. Once  you sing up for the Firefox Thunderclap, ask your friends to do the same.
-                </span>
-                <a class="item-link" href=""> <br> Sign Up Now! &raquo <br></a>
-
-                <p class="list-header bold" data-l10n-id="change-avatar">
-                  Change your social media avatar!
-                </p>
-                <span class="help-us-text" data-l10n-id="change-avatar">
-                 Show yor Mozillian pride on your social networks by changing your profile picture on Facebook, Twitter, Google+, and more. Together, we can show the world what it means to be a Mozillian and a suporter of Firefox, the independent choice.
-                </span>
-
-                <a class="item-link" href=""> <br>Download Avatar &raquo <br></a>
-
-                <p class="list-header bold" data-l10n-id="change-avatar">
-                  Embrace your inner Engager!
-                </p>
-                <span class="help-us-text" data-l10n-id="change-avatar">
-                 If you have a friend who has lots of friends (a friend with reach, per se), reach out to them! Maybe they're a local celebrity, or maybe they're your brother.
-                 <ul>
-                  <li>
-                    Ask them to visit the page and get involved!
-                  </li>
-                  <li>
-                    Ask them to share this participation page to encourage even more participation! Your voice is powerful!
-                  </li>
-                 </ul>
-                </span>
-              
-              </div>
-            
-            </div>
+    <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+    <section class="landing-section">
+      <div id="top-static-fix" class="container-fluid">
+        <div class="row">
+          <div class="show-for-small-only">
+            <div class="bg-img-top"><img class="image-responsive" src="images/mob-top-logo.png"></div>
+          </div>
+          <div class="small-12 columns">
+            <h1 id="heading" class="text-center white">Celebrate 10 years of Firefox!</h1>
+            <div id="subheading" class="row "><h2 class="text-center white small-12 medium-8 columns  medium-offset-2 italic">#ChooseIndependent #FX10</h2></div>
+            <p class="small-12 columns text-center"><span data-l10n-id="paragraph-1-1">For 10 years, </span><span class="bold" data-l10n-id="paragraph-1-2">Firefox</span><span data-l10n-id="paragraph-1-3"> has been the only choice that is </span><span class="bold" data-l10n-id="paragraph-1-4">truly independent</span><span data-l10n-id="paragraph-1-5">, that doesn't answer to industry, shareholder or any other corporate interests. Help us let the world know about Firefox!</span></p>
+            <p class="small-12 columns text-center"> This page will be updated twice before November 10th with more ways to participate. Pay special attention to updates on November 3 and November 10.</p>
           </div>
         </div>
-
-        <div id="get-involved">
-          <p id="get-involved-text" data-l10n-id="get-involved">
-            Get involved offline
-          </p>
-          <div id="video">
-            <iframe width="600" height="350" src="//www.youtube.com/embed/j6pwTk4D8WI?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          
-            <div id="share">
-              <p onclick="toggleShare();" id="toggle"><img src="images/share.png" />
-              </p>
-              <p id="share-this">
-                <a class="btn btn-link share-window" href="https://twitter.com/share?url=http%3A%2F%2Ffirefox10.org%2F&text=For 10 years%2C %23Firefox has been the only Independent choice! Let's show the world that you have made your choice! %23ChooseIndependent %23fx10&hashtags=firefox&dnt=true" target="_blank" data-ga="share-map"> <i class="fa fa-twitter"></i> <span class="title">Twitter</span> </a>
-                <a class="btn btn-link share-window" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffirefox10.org%2F" target="_blank" data-ga="share-map"> <i class="fa fa-facebook"></i> <span class="title">Facebook</span> </a>
-              </p>
-            </div>
-          </div>
-          <div id="involved-list">
-            <i class="fa fa-camera  fa-5x"></i>
-            <div class="list">
-              <p class="list-header bold" data-l10n-id="take">
-                Take a photo or a video!
-              </p>
-              <ul class="normal-list">
-                <li>
-                  <span data-l10n-id="take-pick-1">Pick an iconic landmark near you.</span><span class="italic" data-l10n-id="take-pick-2">Example: Eiffel tower in Paris!</span>
-                </li>
-                <li data-l10n-id="take-wear">
-                  Try to wear Firefox gear or anything that is blue and orange.
-                </li>
-                <li>
-                  <span data-l10n-id="take-print-1">Print this sign in </span><a href="images/color.jpg" target="_blank" download data-l10n-id="take-print-2">color</a> <span data-l10n-id="take-print-3">or</span> <a href="images/mono.jpg" target="_blank" download data-l10n-id="take-print-4">black and white</a></span> <span data-l10n-id="take-print-5">or make it yourself. Fill it in and bring it with you.</span>
-                </li>
-                <li data-l10n-id="take-bring">
-                  Bring your friends, rally those around you, hold up the sign, put on your Firefox ears and take a picture or record a video.
-                </li>
-                <li>
-                  <span data-l10n-id="take-share-1">Share it </span><span class="bold" data-l10n-id="take-share-2">everywhere! </span><span data-l10n-id="take-share-3">Caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <i class="fa fa-picture-o fa-5x"></i>
-            <div class="list">
-              <p class="list-header bold">
-                <span data-l10n-id="create-1">Can't make it outside?</span> <u data-l10n-id="create-2">Create</u> <span data-l10n-id="create-3">a picture!</span>
-              </p>
-              <ul class="normal-list">
-                <li data-l10n-id="create-find">
-                  Find a picture of your local landmark or somewhere you always wanted to go. (make sure you have the rights to the picture) Now edit yourself in! Get creative!
-                </li>
-                <li data-l10n-id="create-share">
-                  SHARE on your social networks and caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #fx10"
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+        <!-- <img src="images/mozillalogo.png"/ id="abs-img-logo"> -->
       </div>
-
-    </div>
-    <footer id="colophon" class="">
-      <nav class="row">
-        <div class="col col-1">
-          <h1 class="logo"><a href="http://mozilla.org/en-US/">Mozilla</a></h1>
-          <p class="license">
-            Portions of this content are (C) 1998-2014 by individual mozilla.org contributors. Content available under a <a href="http://mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a>.
-          </p>
+      <div class="container-fluid row transparent-div hide-for-small-only">
+        <div class="small-12 medium-6 columns div-1"><div class="abs"></div></div>
+        <div class="small-12 medium-6 columns div-2"></div>
+      </div>
+      <div class="row way-to-involve">
+        <div class="small-12 medium-6 medium-offset-3 columns">
+          <p class="text-center white">Two ways to get involved</p>
         </div>
-        <div class="col col-2">
-          <ul class="links-join">
-            <li>
-              <a href="http://mozilla.org/en-US/contact/spaces/">Contact Us&nbsp;</a>
-            </li>
-            <li class="wrap">
-              <a href="http://mozilla.org/en-US/about/partnerships/">Partner with Us</a>
-            </li>
-            <li class="clear">
-              <a href="https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer" class="donate">Donate&nbsp;</a>
-            </li>
-            <li class="wrap">
-              <a href="https://affiliates.mozilla.org/">Firefox Affiliates</a>
-            </li>
-            <li class="clear">
-              <a href="https://www.mozilla.org/contribute/">Contribute to this page</a>
-            </li>
-          </ul>
-          <ul class="links-legal">
-            <li>
-              <a href="http://mozilla.org/en-US/privacy/">Privacy&nbsp;</a>
-            </li>
-            <li class="wrap">
-              <a href="http://mozilla.org/en-US/privacy/websites/#cookies">Cookies&nbsp;</a>
-            </li>
-            <li class="wrap">
-              <a href="http://mozilla.org/en-US/about/legal/">Legal</a>
-            </li>
-            <li class="clear">
-              <a href="http://mozilla.org/en-US/about/legal/fraud-report/">Report Trademark Abuse</a>
-            </li>
-          </ul>
+      </div>
+      <div class="row involve-btn">
+        <div class="small-12 medium-6 medium-offset-3 text-center columns">
+          <div class="small-12 large-6 columns "><a href="#online" class="on-off white">ONLINE</a></div><div class="small-12 large-6 columns"><a href="#offline" class="on-off white">OFFLINE</a></div>
         </div>
-        <div class="col col-3">
-          <ul class="links-social">
-            <li>
-              Mozilla:
+      </div>
+    </section>
+    <section class="message-section">
+      <div class="row">
+        <div class="small-12 columns message-head">
+          <p class="text-center white" id="online">Help us spread the word</p>
+        </div>
+      </div>
+      <div class="row col-tile">
+        <div class="small-12 medium-10 medium-offset-1 columns tile">
+          <div class="small-12 medium-3 columns">
+            <div class="icon-div">
+              <img src="images/icon1.png"/>
+            </div>
+          </div>
+          <div class="small-12 medium-9 columns">
+            <div class="small-12 tile-head  small-text-center medium-text-left">
+              <p class="bold">Sign up for the Firefox Thunderclap</p>
+            </div>
+            <div class="small-12 tile-body small-text-center medium-text-left">
+              <p>Share the message that you - along with thousands of people around the world -  choose independent. When Firefox fans share the same message at the same time, a brilliant fire will be started. Once you sign up for the Firefox Thunderclap, ask your friends to do the same!</p>
+            </div>
+            <div class="small-12 tile-footer small-text-center medium-text-right bold">
+            <a href="http://mzl.la/ppfx10">Sign Up Now! <i class="fa fa-angle-double-right"></i></a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="row col-tile">
+        <div class="small-12 medium-10 medium-offset-1 columns tile">
+          <div class="small-12 medium-3 columns">
+            <div class="icon-div">
+              <i class="fa fa-user"></i>
+            </div>
+          </div>
+          <div class="small-12 medium-9 columns">
+            <div class="small-12 tile-head  small-text-center medium-text-left">
+              <p class="bold">Change your social media avatar!</p>
+            </div>
+            <div class="small-12 tile-body small-text-center medium-text-left">
+              <p>Show your Mozillian pride on your social networks by changing your profile picture on Facebook, Twitter, Google+, and more. Thogether we can show the world what it means to be a Mozillian and a supporter of Firefox, the independent choice.</p>
+            </div>
+            <div class="small-12 tile-footer small-text-center medium-text-right bold">
+              <a href="#">Download avatar<i class="fa fa-angle-double-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row col-tile">
+        <div class="small-12 medium-10 medium-offset-1 columns tile">
+          <div class="small-12 medium-3 columns">
+            <div class="icon-div">
+              <i class="fa fa-share-square"></i>
+            </div>
+          </div>
+          <div class="small-12 medium-9 columns">
+            <div class="small-12 tile-head  small-text-center medium-text-left">
+              <p class="bold">Embrace your inner Engager!</p>
+            </div>
+            <div class="small-12 tile-body small-text-center medium-text-left">
+              <p>If you have a friend who has lot of friends(a friend with reach, per se), reach out to them! May be they're a local celebrity, or may be they're your brother.</p>
               <ul>
-                <li>
-                  <a href="https://twitter.com/mozilla">Twitter<span> (@mozilla)</span></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/mozilla">Facebook<span> (Mozilla)</span></a>
-                </li>
+                <li>Ask them to visit this page and get involved.</li>
+                <li>Ask them to share this participation page to encourage even more participation! Your voice is powerful!</li>
               </ul>
-            </li>
-            <li>
-              Firefox:
-              <ul>
-                <li>
-                  <a href="https://twitter.com/firefox">Twitter<span> (@firefox)</span></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/Firefox">Facebook<span> (Firefox)</span></a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/firefoxchannel">YouTube<span> (firefoxchannel)</span></a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <label for="language"><span data-l10n-id="other-languages">Other languages:</span></label>
-              <select id="language" name="language" onchange="document.webL10n.setLanguage(this.value);">
-                <option value="en"><span data-l10n-id="english">English</span></option>
-                <option value="de"><span data-l10n-id="german">German</span></option>
-                <option value="pt"><span data-l10n-id="portuguese">Portuguese</span></option>
-              </select>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
+      <div class="row video-row">
+      <div class="small-12 message-head columns">
+        <p class="text-center" id="offline">Get involved offline</p>
+      </div>
+        <iframe class="columns"  height="315" src="https://www.youtube.com/embed/j6pwTk4D8WI" frameborder="0" allowfullscreen></iframe>
+        <div class="small-12 columns share-btn-div text-center">
+          <div class="share-btn "></div>
+        </div>
+      </div>
+      <div class="row col-tile margin-top-20">
+        <div class="small-12 medium-10 medium-offset-1 columns tile">
+          <div class="small-12 medium-3 columns">
+            <div class="icon-div">
+              <i class="fa fa-camera"></i>
+            </div>
+          </div>
+          <div class="small-12 medium-9 columns">
+            <div class="small-12 tile-head  small-text-center medium-text-left">
+              <p class="bold">Take a photo or a video!</p>
+            </div>
+            <div class="small-12 tile-body small-text-center medium-text-left">
+              <ul>
+                <li>Pick an iconic landmark near you. Example:<span class="italic">Eiffel tower in Paris!</span></li>
+                <li>Wear Firefox gear or anything that is blue and orange.</li>
+                <li>Print this sign or make it. Fill it in and bring it with you.</li>
+                <li>Bring your friends, rally those around you, hold up the sign, put on your Firefox ears and take a picture or video.</li>
+                <li>Share it <span class="bold">everlywhere!</span> Caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #Fx10."</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row col-tile">
+        <div class="small-12 medium-10 medium-offset-1 columns tile">
+          <div class="small-12 medium-3 columns">
+            <div class="icon-div">
+              <i class="fa fa-file-image-o"></i>
+            </div>
+          </div>
+          <div class="small-12 medium-9 columns">
+            <div class="small-12 tile-head  small-text-center medium-text-left">
+              <p class="bold">Can't make it outside? Create a photo or video!</p>
+            </div>
+            <div class="small-12 tile-body small-text-center medium-text-left">
+              <ul>
+                <li>Find a picture of your local landmark or somwhere you always wanted to go. (make sure you have the rights to the photo) Now edit yourself in! Get creative!</li>
+                <li>SHARE on your social networks and caption your picture or video with: "Firefox is my independent choice in [city or country]! #ChooseIndependent and #Fx10."</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 show-for-small-only">
+        <div class="bg-img-bottom">
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div class="row footer-row">
+        <div class="small-12 large-2 columns">
+          <img src="images/footer-mozilla-white.png"/>
+        </div>
+        <div class="small-12 large-4 columns">
+          <p>Promotions of this content are &#0169; 1998-2014 by individual mozilla.org contributors. Content available under a <a href="https://www.mozilla.org/en-US/foundation/licensing/website-content">Creative Commons license.</a></p>
+          <p><a href="https://www.mozilla.org/en-US/contribute/page">Contribute to this page</a></p>
+        </div>
+        <div class="small-12 large-6 columns">
+          <div class="small-6 columns">
+            <ul>
+              <li><a href="https://www.mozilla.org/en-US/contact/spaces">Contact Us</a></li>
+              <li><a href="https://www.mozilla.org/en-US/privacy">Privacy Policy</a></li>
+              <li><a href="https://www.mozilla.org/en-US/about/legal">Legal Notices</a></li>
+              <li><a href="https://www.mozilla.org/en-US/about/legal/fraud-report/">Report Trademark Abuse</a></li>
+            </ul>
+          </div>
+          <div class="small-6  columns">
+            <ul>
+              <li><a href="https://twitter.com/firefox">Twitter</a></li>
+              <li><a href="https://www.facebook.com/Firefox">Facebook</a></li>
+              <li><a href="https://affiliates.mozilla.org/en-US/">Firefox Affiliates</a></li>                 
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="//pontoon.mozilla.org/pontoon.js"></script>
-    <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
     <script type="text/javascript">
-      function toggleShare() {
-        var shareThis = document.getElementById("share-this");
-        if (shareThis.style.display != "none" && shareThis.style.display != "") {
-          shareThis.style.display = "none";
-        } else {
-          shareThis.style.display = "block";
+      new Share(".share-btn", {
+      networks: {
+        facebook: {
+          app_id: "abc123"
         }
       }
+    });
     </script>
   </body>
 </html>
