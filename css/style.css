@@ -224,14 +224,21 @@ footer ul a{
   padding:0px;
 }
 .share-btn.sharer-0{
-  width: 110px !important;
+  width: 250px !important;
   height: 50px  !important;
 }
+.share-btn.sharer-0 .social.networks-5{
+  width: 460px !important;
+}
 .share-btn.sharer-0 label{
-  padding:5px 30px !important ;
-  background-color:#497BE4 !important;
+  padding: 0 !important;
+  border: 1px solid #FFFFFF;
+  background-color:#0D99D6 !important;
   color:#fff !important;
-  padding-right:10px !important;
+  display: block;
+  width: 250px !important;
+  height: 50px !important;
+  line-height: 50px;
 }
 .entypo-export:before {
 content: "\f1e0" !important;
@@ -247,8 +254,7 @@ font-family: "FontAwesome" !important;
   color:#fff;
 }*/
 .share-btn{
-  margin:auto;
-  padding-top: 20px;
+  margin:auto;  
 }
 .margin-top-20{
   margin-top:20px;
@@ -308,5 +314,19 @@ font-family: "FontAwesome" !important;
     width:100%;
     display:block;
 
+  }
+  .share-btn.sharer-0{
+    width: 100% !important;
+  }
+  .share-btn.sharer-0 label{
+    width: 100% !important;
+    height: 60px !important;
+    line-height: 60px !important;
+    border: 0;
+    border-radius: 0 !important;
+  }
+  .share-btn.sharer-0 .social.networks-5{
+    width: 300px !important;
+    margin: 10px auto 0 !important;
   }
 }
