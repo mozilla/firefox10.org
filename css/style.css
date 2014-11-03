@@ -69,14 +69,23 @@ select, option {
 .landing-section{
   position:relative;
   padding-bottom: 325px;
-  background: url('../images/full-bg-wo-top.png') repeat scroll center center / cover transparent;
-  background-position: 10px 0px !important;
+  background: url('../images/full-bg-wo-top-wo-globe.png') repeat scroll 14px 0 / cover transparent;
+}
+.landing-section:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background: url('../images/full-bg-wo-top-globe-only.png') repeat scroll 14px 0 / cover transparent;
+  content: "";
 }
 #top-static-fix{
-  background-color:rgba(10, 134, 188,0.7);
-  padding-top:96px;
-  padding-bottom: 114px;
+  padding: 96px 0;
   position:relative;
+  z-index: 100;
 }
 .transparent-div{
   position:relative;
@@ -267,6 +276,14 @@ font-family: "FontAwesome" !important;
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
 #tabzilla-panel{
   z-index:3 !important;
+}
+@media(max-width: 60em){
+  .landing-section:after {
+    background-image: none;
+  }
+  #top-static-fix {
+    background: rgba(10, 134, 188, 0.7);
+  }
 }
 @media(max-width: 40em){
   #heading{
