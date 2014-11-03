@@ -58,6 +58,9 @@ select, option {
 .bold {
   font-weight: 700;
 }
+.social {
+  padding-left: 80px;
+}
 #tabzilla{
   right:15%;
   z-index: 1000;
