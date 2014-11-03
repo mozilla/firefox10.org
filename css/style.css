@@ -140,6 +140,10 @@ a{
   width:50%;
   border-radius:6px;
 }
+#take-a-photo a {
+  color: #FFF;
+  text-decoration: underline;
+}
 footer{
   background-color:#001B30;
   padding:30px 0px;
