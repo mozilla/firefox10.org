@@ -34,7 +34,7 @@
 }
 body {
   color: #FFFFFF;
-  background-color: #013356;
+  background: #013356 url('../images/full-bg-wo-top-wo-globe.png') no-repeat scroll 14px 0 / cover;
   overflow-x: hidden;
   width: 100%;
   margin: 0;
@@ -72,7 +72,6 @@ select, option {
 .landing-section{
   position:relative;
   padding-bottom: 325px;
-  background: url('../images/full-bg-wo-top-wo-globe.png') repeat scroll 14px 0 / cover transparent;
 }
 .landing-section:after {
   display: block;
