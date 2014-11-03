@@ -123,7 +123,7 @@
         </div>
         <iframe class="columns"  height="315" src="https://www.youtube.com/embed/j6pwTk4D8WI" frameborder="0" allowfullscreen></iframe>
         <div class="small-12 columns share-btn-div text-center">
-          <div class="share-btn "></div>
+          <div class="share-btn"></div>
         </div>
       </div>
       <div id="take-a-photo" class="row col-tile margin-top-20">
@@ -227,11 +227,10 @@
 
     <script src="//pontoon.mozilla.org/pontoon.js"></script>
     <script type="text/javascript">
-      new Share(".share-btn", {
-      networks: {
-        facebook: {
-          app_id: "abc123"
-        }
+      new Share(".share-btn",{
+      width: '110px',
+      ui: {
+        button_text: 'Share the video',
       }
     });
     </script>
