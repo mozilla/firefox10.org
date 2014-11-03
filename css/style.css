@@ -223,11 +223,8 @@ footer ul a{
   top: -60px;
 }
 .image-responsive{
-  min-width:320px;
-  max-width:320px;
+  max-width:400px;
   margin:auto;
-  min-height:240px;
-  height:100%;
   display:block;
 
 }
