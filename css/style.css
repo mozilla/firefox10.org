@@ -42,6 +42,9 @@ body {
 a{
   color:#fff;
 }
+select, option {
+  color: #000;
+}
 .italic {
   font-style: italic;
 }
