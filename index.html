@@ -222,15 +222,26 @@
 
     <script src="//pontoon.mozilla.org/pontoon.js"></script>
     <script>
-      new Share('.share-btn',{
-      width: '110px',
-      title: 'Celebrate the Firefox 10th Anniversary',
-      url: 'https://www.youtube.com/watch?v=j6pwTk4D8WI',
-      description: 'Firefox is my independent choice! #ChooseIndependent #fx10',
-      ui: {
-        button_text: 'Share the video',
-      }
-    });
+      var videoUrl = 'https://www.youtube.com/watch?v=j6pwTk4D8WI',
+        shareDescr = 'Firefox is my independent choice! #ChooseIndependent #fx10 ' + videoUrl,
+        encodedDescr = shareDescr.replace(/#/g, '%23'),
+        sharer = new Share('.share-btn',{
+          width: '110px',
+          title: 'Celebrate the Firefox 10th Anniversary ',
+          url: videoUrl,
+          description: shareDescr,
+          ui: {
+            button_text: 'Share the video',
+          },
+          networks: {
+            twitter: {
+              description: encodedDescr
+            },
+            facebook: {
+              description: encodedDescr
+            }
+          }
+        });
     </script>
   </body>
 </html>
