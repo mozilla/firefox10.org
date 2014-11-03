@@ -63,6 +63,8 @@ select, option {
 }
 .social {
   padding-left: 80px;
+  position: relative;
+  z-index: 1;
 }
 #tabzilla{
   right:15%;
