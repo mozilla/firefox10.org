@@ -70,7 +70,7 @@ select, option {
   position:relative;
   padding-bottom: 325px;
   background: url('../images/full-bg-wo-top.png') repeat scroll center center / cover transparent;
-  background-position: 14px 40px !important;
+  background-position: 10px 0px !important;
 }
 #top-static-fix{
   background-color:rgba(10, 134, 188,0.7);
