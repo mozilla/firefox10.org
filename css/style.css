@@ -45,6 +45,10 @@ a{
 select, option {
   color: #000;
 }
+#take-a-photo a {
+  color: #FFF;
+  text-decoration: underline;
+}
 .italic {
   font-style: italic;
 }
