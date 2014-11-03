@@ -36,7 +36,7 @@ a{
   position:relative;
   padding-bottom: 325px;
   background: url('../images/full-bg-wo-top.png') repeat scroll center center / cover transparent;
-  background-position: 14px 40px !important;
+  background-position: 14px 17px !important;
 }
 #top-static-fix{
   background-color:rgba(10, 134, 188,0.7);
@@ -80,7 +80,7 @@ a{
 }
 .way-to-involve p{
   font-size:3em; 
-  margin-top:10px;
+  margin-top:70px;
   font-weight:300;
 }
 .involve-btn{
@@ -218,6 +218,7 @@ font-family: "FontAwesome" !important;
 }*/
 .share-btn{
   margin:auto;
+  padding-top: 20px;
 }
 .margin-top-20{
   margin-top:20px;
