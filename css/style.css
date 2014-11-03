@@ -354,4 +354,15 @@ font-family: "FontAwesome" !important;
     width: 300px !important;
     margin: 10px auto 0 !important;
   }
+  
 }
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  #top-static-fix{
+    padding: 85px 0px 105px;
+  }
+  #heading{
+    font-size:54px;
+  }
+  
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
