@@ -276,6 +276,14 @@ font-family: "FontAwesome" !important;
 #tabzilla-panel{
   z-index:3 !important;
 }
+@media(max-width: 1225px){
+  body {
+    background-size: 1225px;
+  }
+  .landing-section:after {
+    background-size: 1225px;
+  }
+}
 @media(max-width: 60em){
   .landing-section:after {
     background-image: none;
@@ -285,6 +293,9 @@ font-family: "FontAwesome" !important;
   }
 }
 @media(max-width: 40em){
+  body {
+    background-image: none;
+  }
   #heading{
     font-size:2.5em;
   }
