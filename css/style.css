@@ -232,12 +232,6 @@ footer ul a{
   right: 0%;
   top: -60px;
 }
-.image-responsive{
-  max-width:400px;
-  margin:auto;
-  display:block;
-
-}
 .share-btn-div{
   margin:20px 0px;
   padding:0px;
@@ -295,10 +289,10 @@ font-family: "FontAwesome" !important;
   }
   #top-static-fix{
     padding-top:275px;
-    background: -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#437DD0, #013356); /* Standard syntax */
+    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
+    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
+    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
+    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, linear-gradient(#437DD0, #013356); /* Standard syntax */
   }
   #top-static-fix + .fox {
     display: none;
