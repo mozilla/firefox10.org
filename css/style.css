@@ -301,6 +301,9 @@ font-family: "FontAwesome" !important;
     background-position: center -60px, center top;
     background-size: 400px, auto; 
   }
+  #top-static-fix:after{
+    background-image:none;
+  }
   #top-static-fix + .fox {
     display: none;
   }
