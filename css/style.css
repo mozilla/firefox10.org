@@ -74,7 +74,7 @@ select, option {
 }
 .landing-section{
   position:relative;
-  padding-bottom: 325px;
+  padding-bottom: 350px;
 }
 #top-static-fix{
   margin-bottom: 50px;
@@ -284,6 +284,23 @@ font-family: "FontAwesome" !important;
 #tabzilla-panel{
   z-index:200 !important;
 }
+@media (min-width: 40em) and (max-width: 1024px) {
+  .landing-section {
+    padding-bottom: 420px;
+  }
+  .involve-btn:before,
+  .involve-btn:after {
+    display: none;
+  }
+  .involve-btn .medium-offset-3 {
+    float: none !important;
+    margin: 0 auto !important;
+    width: 500px !important;
+  }
+  .involve-btn .medium-offset-3 .small-12 {
+    width: 50% !important;
+  }
+}
 @media(max-width: 40em){
   body {
     background-image: none;
@@ -292,6 +309,7 @@ font-family: "FontAwesome" !important;
     font-size:2.5em;
   }
   #top-static-fix{
+    margin-bottom: 0;
     padding-top:275px;
     background-image: url(../images/mob-top-logo.png), -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
     background-image: url(../images/mob-top-logo.png), -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
