@@ -49,6 +49,9 @@ select, option {
   color: #FFF;
   text-decoration: underline;
 }
+#take-a-photo a:hover, #take-a-photo a:focus{
+    color: #258FAF;
+}
 .italic {
   font-style: italic;
 }
