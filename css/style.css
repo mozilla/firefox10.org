@@ -34,7 +34,7 @@
 }
 body {
   color: #FFFFFF;
-  background: #013356 url('../images/full-bg-wo-globe.png') no-repeat scroll center top;
+  background: #013356 url('../images/full-bg-wo-globe.png') no-repeat scroll center 390px;
   overflow-x: hidden;
   width: 100%;
   margin: 0;
