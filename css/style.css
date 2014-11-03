@@ -85,7 +85,7 @@ select, option {
   content: "";
 }
 #top-static-fix{
-  padding: 96px 0;
+  padding: 96px 0 65px 0;
   position:relative;
   z-index: 100;
 }
