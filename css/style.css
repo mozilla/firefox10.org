@@ -86,7 +86,7 @@ select, option {
   content: "";
 }
 #top-static-fix{
-  padding: 96px 0;
+  padding: 96px 0 65px 0;
   position:relative;
   z-index: 100;
 }
@@ -127,7 +127,6 @@ select, option {
 }
 .way-to-involve p{
   font-size:3em; 
-  margin-top:60px;
   font-weight:300;
 }
 .involve-btn{
