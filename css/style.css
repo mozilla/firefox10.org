@@ -278,7 +278,7 @@ font-family: "FontAwesome" !important;
 }
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
 #tabzilla-panel{
-  z-index:3 !important;
+  z-index:200 !important;
 }
 @media(max-width: 1225px){
   body {
