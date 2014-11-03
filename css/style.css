@@ -75,6 +75,7 @@ select, option {
 #top-static-fix{
   background-color:rgba(10, 134, 188,0.7);
   padding-top:96px;
+  padding-bottom: 114px;
   position:relative;
 }
 .transparent-div{
