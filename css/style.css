@@ -34,7 +34,7 @@
 }
 body {
   color: #FFFFFF;
-  background: #013356 url('../images/full-bg-wo-top-wo-globe.png') no-repeat scroll 14px 0 / cover;
+  background: #013356 url('../images/full-bg-wo-top-wo-globe.png') no-repeat scroll center top;
   overflow-x: hidden;
   width: 100%;
   margin: 0;
@@ -76,22 +76,24 @@ select, option {
   position:relative;
   padding-bottom: 325px;
 }
-.landing-section:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  width: 100%;
-  height: 100%;
-  background: url('../images/full-bg-wo-top-globe-only.png') repeat scroll 14px 0 / cover transparent;
-  content: "";
-  pointer-events: none;
-}
 #top-static-fix{
   padding: 96px 0 65px 0;
   position:relative;
   z-index: 100;
+  background: rgba(10, 134, 188, 0.7);
+}
+#top-static-fix + .fox {
+  display: block;
+  position: relative;
+  bottom: 99px;
+  right: 0;
+  z-index: 200;
+  margin-bottom: -200px;
+  width: 100%;
+  height: 249px;
+  background: url('../images/full-bg-wo-top-globe-only.png') no-repeat scroll center top;
+  content: "";
+  pointer-events: none;
 }
 .transparent-div{
   position:relative;
@@ -134,7 +136,6 @@ select, option {
 }
 .involve-btn{
   margin-top:10px;
-  margin-bottom:100px;
 }
 .involve-btn>div>div{
   height:60px;
@@ -285,22 +286,6 @@ font-family: "FontAwesome" !important;
 #tabzilla-panel{
   z-index:200 !important;
 }
-@media(max-width: 1225px){
-  body {
-    background-size: 1225px;
-  }
-  .landing-section:after {
-    background-size: 1225px;
-  }
-}
-@media(max-width: 60em){
-  .landing-section:after {
-    background-image: none;
-  }
-  #top-static-fix {
-    background: rgba(10, 134, 188, 0.7);
-  }
-}
 @media(max-width: 40em){
   body {
     background-image: none;
@@ -314,6 +299,9 @@ font-family: "FontAwesome" !important;
   background: -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#437DD0, #013356); /* Standard syntax */
+  }
+  #top-static-fix + .fox {
+    display: none;
   }
   .landing-section{
     background-image:none;
