@@ -289,10 +289,13 @@ font-family: "FontAwesome" !important;
   }
   #top-static-fix{
     padding-top:275px;
-    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
-    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
-    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
-    background: url(../images/mob-top-logo.png) no-repeat center -60px / 400px, linear-gradient(#437DD0, #013356); /* Standard syntax */
+    background-image: url(../images/mob-top-logo.png), -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
+    background-image: url(../images/mob-top-logo.png), -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
+    background-image: url(../images/mob-top-logo.png), -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
+    background-image: url(../images/mob-top-logo.png), linear-gradient(#437DD0, #013356); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-position: center -60px, center top;
+    background-size: 400px, auto; 
   }
   #top-static-fix + .fox {
     display: none;
