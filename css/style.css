@@ -34,7 +34,7 @@
 }
 body {
   color: #FFFFFF;
-  background: #013356 url('../images/full-bg-wo-globe.png') no-repeat scroll center 390px;
+
   overflow-x: hidden;
   width: 100%;
   margin: 0;
@@ -44,6 +44,9 @@ a{
 }
 select, option {
   color: #000;
+}
+#bgfx{
+  background: #013356 url('../images/full-bg-wo-globe.png') no-repeat scroll center 390px;
 }
 #take-a-photo a {
   color: #FFF;
@@ -304,7 +307,7 @@ font-family: "FontAwesome" !important;
   }
 }
 @media(max-width: 40em){
-  body {
+  #bgfx {
     background-image: none;
   }
   #heading{
