@@ -253,17 +253,18 @@
     </footer>
 
     <script src="//pontoon.mozilla.org/pontoon.js"></script>
-    <script>
-      var videoUrl = 'https://www.youtube.com/watch?v=j6pwTk4D8WI',
-        shareDescr = 'Firefox is my independent choice! #ChooseIndependent #fx10 ',
+    <script defer>
+      window.addEventListener('localized', function() {
+        var videoUrl = 'https://www.youtube.com/watch?v=j6pwTk4D8WI',
+        shareDescr = document.webL10n.get('share-description'),
         encodedDescr = shareDescr.replace(/#/g, '%23'),
         sharer = new Share('.share-btn',{
           width: '110px',
-          title: 'Celebrate the Firefox 10th Anniversary ',
+          title: document.webL10n.get('share-title'),
           url: videoUrl,
           description: shareDescr,
           ui: {
-            button_text: 'Share the video',
+            button_text: document.webL10n.get('share'),
           },
           networks: {
             twitter: {
@@ -283,6 +284,7 @@
             }
           }
         });
+      }, false);
     </script>
   </body>
 </html>
