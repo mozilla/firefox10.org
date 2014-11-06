@@ -31,20 +31,20 @@
         });
         var lang = document.webL10n.getLanguage().substring(0, 2);
 
-        if(lang=="es"){
+        if(lang=="es") {
             document.getElementById('language').value="es";
         }
-
-        if(lang=="de"){
+        if(lang=="de") {
             document.getElementById('language').value="de";
         }
-
-        if(lang=="pt"){
+        if(lang=="pt") {
             document.getElementById('language').value="pt-BR";
         }
-
-        if(lang=="bn"){
+        if(lang=="bn") {
             document.getElementById('language').value="bn-BD";
+        }
+        if(lang=="ur") {
+            document.getElementById('language').value="ur";
         }
       }, false);
 }());
