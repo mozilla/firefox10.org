@@ -83,7 +83,7 @@ select, option {
 }
 #top-static-fix{
   margin-bottom: 50px;
-  padding: 96px 0 67px 0;
+  padding: 96px 0 115px 0;
   position:relative;
   z-index: 100;
   background: #0A86BC url(../images/full-bg-overlay-wo-globe.png) no-repeat scroll center top;
