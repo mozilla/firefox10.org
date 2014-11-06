@@ -1,5 +1,5 @@
 (function() {
-	document.webL10n.ready('localized', function() {
+	document.webL10n.ready(function() {
         var videoUrl = 'https://www.youtube.com/watch?v=j6pwTk4D8WI',
         shareDescr = document.webL10n.get('share-description'),
         encodedDescr = shareDescr.replace(/#/g, '%23'),
