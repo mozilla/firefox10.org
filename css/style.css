@@ -142,6 +142,7 @@ select, option {
 .way-to-involve p{
   font-size:3em; 
   font-weight:300;
+  line-height: 1.3em;
 }
 .involve-btn{
   margin-top:10px;
@@ -188,7 +189,10 @@ select, option {
 .col-tile{
   padding-bottom:20px;
 }
-.tile-head p,.tile-body p,.tile-footer a, .tile-body ul li{
+.tile-head p {
+  font-size: 1.4rem;
+}
+.tile-body p,.tile-footer a, .tile-body ul li{
   font-size:1.2rem;
 }
 .tile-footer i{
@@ -222,6 +226,7 @@ select, option {
 }
 .sub-sub-list{
   margin-top:10px;
+  list-style-type: disc;
 }
 footer{
   background-color:#001B30;
@@ -289,8 +294,8 @@ font-family: "FontAwesome" !important;
     padding-right:10px;
   }
   div.small-12.msg-sub.columns p{
-    font-size:20px;
-    line-height:2em;
+    font-size:19px;
+    line-height:1.6em;
     margin-bottom:30px;
   }
   ul iframe{
