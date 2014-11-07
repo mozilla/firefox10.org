@@ -202,18 +202,15 @@ select, option {
   padding:0px;
   margin-bottom:20px;
 }
-.video-row iframe{
+.video-row iframe, .video-row-special iframe{
   border:2px solid #437DD0;
-  margin:auto 25%;
+  margin:auto 20%;
   min-width:320px;
-  width:50%;
+  width:60%;
   border-radius:6px;
 }
-.tile-body iframe{
-  border:2px solid #437DD0;
-  min-width:320px;
-  width:100%;
-  border-radius:6px;
+.video-row-special iframe{
+  margin-top:10px;
 }
 .tile-body ul li a{
   font-weight:700;
@@ -413,11 +410,12 @@ font-family: "FontAwesome" !important;
   .message-section{
     padding-bottom:160px;
   }
-  .video-row iframe,.tile-body iframe{
+  .video-row iframe,.tile-body iframe, .video-row-special iframe{
     width:100%; 
     margin:0% !important;
     border-radius:0px;
     border:none;
+    padding:0px;
   }
   .share-btn-div{
     margin-top:0px !important;
