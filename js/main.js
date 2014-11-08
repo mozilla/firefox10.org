@@ -50,5 +50,39 @@
             speed: 700,
             easing: 'easeInOutCubic'
         });
+        $('#tabzilla').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'tabzilla');
+        });
+        $('a[href="#online"]').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'online');
+        });
+        $('a[href="#offline"]').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'offline');
+        });
+        $('#download-avatar').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'download-avatar');
+        });
+        $('#firefox-affiliate').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'firefox-affiliate');
+        });
+        $('#download-wallpapers').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'download-wallpapers');
+        });
+        $('#firefox-badge').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'firefox-badge');
+        });
+        $('#download-signs').on('click', function() {
+          ga('send', 'event', 'link', 'click', 'download-signs');
+        });
+        $('.offline-video').delegate('li','click', function() {
+          var type = $(this).data('networks');
+          if (type == 'twitter') {
+            ga('send', 'event', 'li', 'click', 'offline-video-twitter');
+          } else if (type == 'facebook') {
+            ga('send', 'event', 'li', 'click', 'offline-video-facebook');
+          } else if (type == 'email') {
+            ga('send', 'event', 'li', 'click', 'offline-video-email');
+          }
+        });
       }, false);
 }());
