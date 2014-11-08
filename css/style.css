@@ -65,7 +65,6 @@ select, option {
   font-weight: 700;
 }
 .social {
-  padding-left: 80px;
   position: relative;
   z-index: 1;
 }
@@ -140,7 +139,7 @@ select, option {
   margin-bottom:5px;
 }
 .way-to-involve p{
-  font-size:3em; 
+  font-size:3em;
   font-weight:300;
   line-height: 1.3em;
 }
@@ -329,7 +328,7 @@ font-family: "FontAwesome" !important;
   color:#fff;
 }*/
 .share-btn{
-  margin:auto;  
+  margin:auto;
 }
 .margin-top-20{
   margin-top:20px;
@@ -378,7 +377,7 @@ font-family: "FontAwesome" !important;
     background-image: url(../images/mob-top-logo.png), linear-gradient(#437DD0, #013356); /* Standard syntax */
     background-repeat: no-repeat;
     background-position: center -60px, center top;
-    background-size: 400px, auto; 
+    background-size: 400px, auto;
   }
   #top-static-fix:after{
     background-image:none;
@@ -411,7 +410,7 @@ font-family: "FontAwesome" !important;
     padding-bottom:160px;
   }
   .video-row iframe,.tile-body iframe, .video-row-special iframe{
-    width:100%; 
+    width:100%;
     margin:0% !important;
     border-radius:0px;
     border:none;
@@ -440,12 +439,12 @@ font-family: "FontAwesome" !important;
     width: 300px !important;
     margin: 10px auto 0 !important;
   }
-  
+
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   #heading{
     font-size:54px;
   }
-  
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
