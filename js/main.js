@@ -46,5 +46,9 @@
         if(lang=="ur") {
             document.getElementById('language').value="ur";
         }
+        smoothScroll.init({
+            speed: 700,
+            easing: 'easeInOutCubic'
+        });
       }, false);
 }());
