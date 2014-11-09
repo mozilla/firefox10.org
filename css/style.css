@@ -45,6 +45,9 @@ a{
 select, option {
   color: #000;
 }
+.tabzilla-white-border {
+  border-top: 2px solid #fff;
+}
 #bgfx{
   background: #013356 url('../images/full-bg-wo-globe.png') no-repeat scroll center 390px;
 }
